@@ -1,0 +1,7 @@
+--- kbiff/kbiff.desktop.old	2005-11-15 18:21:18.000000000 +0100
++++ kbiff/kbiff.desktop	2005-11-15 18:21:01.000000000 +0100
+@@ -73,3 +73,4 @@
+ Comment[uk]=Утіліта сповіщування про надходження пошти
+ Comment[zh_CN.GB2312]=邮件通知工具
+ Terminal=0
++Categories=Qt;KDE;Network;Email;
