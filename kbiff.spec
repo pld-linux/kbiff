@@ -59,10 +59,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog COPYING INSTALL kbiff.lsm NEWS README
+%doc AUTHORS ChangeLog README
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/%{name}
-%{_libdir}/%{name}.*
+%attr(755,root,root) %{_libdir}/%{name}.so
+%{_libdir}/%{name}.la
 %{_desktopdir}/%{name}.desktop
 %{_datadir}/apps/%{name}
 %{_datadir}/icons/*/*/apps/%{name}.png
