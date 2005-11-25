@@ -1,14 +1,14 @@
-Name:		kbiff
-Summary:	KBiff -- Mail notification utility
+Summary:	KBiff - Mail notification utility
 Summary(pl):	Wska¼nik skrzynki pocztowej dla kde
+Name:		kbiff
 Version:	3.8
 Release:	1
 License:	GPL
 Group:		X11/Applications
-URL:		http://kbiff.granroth.org
 Source0:	http://dl.sourceforge.net/kbiff/%{name}-%{version}.tar.bz2
 # Source0-md5:	97d9f7e24d4928a602f1c89d7ff18755
 Patch0:		%{name}.desktop.patch
+URL:		http://kbiff.granroth.org/
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -22,13 +22,13 @@ IMAP4, and NNTP mailboxes. Has capability to monitor multiple
 mailboxes with one instance. Supports SSL.
 
 %description -l pl
-Kbiff jest podobnym do xbiff programem do informowanie on nowej
-poczcie. Posiada wiele obrazków, zarz±dcê sesji, oraz jest
+Kbiff jest podobnym do xbiff programem do informowania o nowej
+poczcie. Posiada wiele obrazków i zarz±dcê sesji oraz jest
 konfigurowalny przy u¿yciu GUI. Dodatkowo mo¿e byæ zadokowany w panelu
-KDE, oraz wy¶wietlaæ animowane gify, odgrywaæ d¼wiêki systemowe, lub
+KDE oraz wy¶wietlaæ animowane gify, odgrywaæ d¼wiêki systemowe lub
 uruchamiaæ odpowiedni± komendê w pow³oce, gdy nadejdzie nowa poczta.
 Obs³uguje skrzynki pocztowe w formatach: mbox, maildir, mh, POP3,
-IMAP4 oraz NNTP. Posiada mo¿liwo¶æ monitorowania wielu kont na raz.
+IMAP4 oraz NNTP. Ma mo¿liwo¶æ monitorowania wielu kont na raz.
 Dodatkowo obs³uguje SSL.
 
 %prep
