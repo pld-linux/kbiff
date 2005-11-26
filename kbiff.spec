@@ -11,6 +11,7 @@ Patch0:		%{name}.desktop.patch
 URL:		http://kbiff.granroth.org/
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel
+BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
