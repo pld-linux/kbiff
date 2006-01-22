@@ -1,7 +1,42 @@
---- kbiff/kbiff.desktop.old	2005-11-15 18:21:18.000000000 +0100
-+++ kbiff/kbiff.desktop	2005-11-15 18:21:01.000000000 +0100
-@@ -73,3 +73,4 @@
+--- kbiff-3.8/kbiff/kbiff.desktop.old	2005-11-15 18:21:18.000000000 +0100
++++ kbiff-3.8/kbiff/kbiff.desktop	2005-11-15 18:21:01.000000000 +0100
+@@ -18,8 +18,8 @@
+ Name[ja]=Email受信を検出(biff)
+ Name[mk]=Известувач за нова е-пошта
+ Name[nl]=E-mail-notificatie (biff)
+-Name[no]=Epost-varsler (biff)
+-Name[no_NY]=E-postpåminning (biff)
++Name[nb]=Epost-varsler (biff)
++Name[nn]=E-postpåminning (biff)
+ Name[pl]=Powiadamianie o nadejściu E-maila (biff)
+ Name[pt]=Aviso de Correio ElectrÃ³nico
+ Name[pt_BR]=Notificador de novos e-mails
+@@ -32,7 +32,7 @@
+ Name[ta]=Á¢ý«ïºø «È¢Å¢ôÀ¡Ç÷ (biff)
+ Name[tr]=E-Posta Bildiricisi (biff)
+ Name[uk]=Сповіщувач електронної пошти (biff)
+-Name[zh_CN.GB2312]=Email 通知(biff)
++Name[zh_CN]=Email 通知(biff)
+ Exec=kbiff %i %m
+ Icon=kbiff
+ Type=Application
+@@ -57,8 +57,8 @@
+ Comment[ja]=メールモニター
+ Comment[mk]=Известувач за нова е-пошта
+ Comment[nl]=Notificatie bij nieuwe berichten
+-Comment[no]=Gir beskjed når nye eposter ankommer
+-Comment[no_NY]=Gir beskjed når du får ny e-post
++Comment[nb]=Gir beskjed når nye eposter ankommer
++Comment[nn]=Gir beskjed når du får ny e-post
+ Comment[pl]=Powiadomienie o nowej poczcie
+ Comment[pt]=UtilitÃ¡rio de aviso de novo correio
+ Comment[pt_BR]=Utilitário de notificação de correio
+@@ -71,5 +71,6 @@
+ Comment[ta]=«ïºø «È¢Å¢ôÒ ÀÂýÀ¡Î
+ Comment[tr]=Posta bildirim yardımcısı
  Comment[uk]=Утіліта сповіщування про надходження пошти
- Comment[zh_CN.GB2312]=邮件通知工具
- Terminal=0
+-Comment[zh_CN.GB2312]=邮件通知工具
+-Terminal=0
++Comment[zh_CN]=邮件通知工具
++Terminal=false
 +Categories=Qt;KDE;Network;Email;
