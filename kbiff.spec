@@ -2,7 +2,7 @@ Summary:	KBiff - Mail notification utility
 Summary(pl):	Wska¼nik skrzynki pocztowej dla kde
 Name:		kbiff
 Version:	3.8
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/kbiff/%{name}-%{version}.tar.bz2
@@ -34,7 +34,7 @@ Dodatkowo obs³uguje SSL.
 
 %prep
 %setup -q
-%patch0 -p0
+%patch0 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
