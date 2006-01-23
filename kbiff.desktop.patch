@@ -31,12 +31,13 @@
  Comment[pl]=Powiadomienie o nowej poczcie
  Comment[pt]=UtilitÃ¡rio de aviso de novo correio
  Comment[pt_BR]=Utilitário de notificação de correio
-@@ -71,5 +71,6 @@
+@@ -71,5 +71,7 @@
  Comment[ta]=«ïºø «È¢Å¢ôÒ ÀÂýÀ¡Î
  Comment[tr]=Posta bildirim yardımcısı
  Comment[uk]=Утіліта сповіщування про надходження пошти
 -Comment[zh_CN.GB2312]=邮件通知工具
 -Terminal=0
 +Comment[zh_CN]=邮件通知工具
++Encoding=UTF-8
 +Terminal=false
 +Categories=Qt;KDE;Network;Email;
