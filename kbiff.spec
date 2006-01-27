@@ -71,5 +71,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/%{name}.la
 %{_desktopdir}/%{name}.desktop
 %{_datadir}/apps/%{name}
-%{_datadir}/icons/*/*/apps/%{name}.png
+%{_iconsdir}/hicolor/*/apps/%{name}.png
 %{_mandir}/man1/*
