@@ -53,6 +53,7 @@ rm -rf $RPM_BUILD_ROOT
 	kde_libs_htmldir=%{_kdedocdir} \
 	appsdir=%{_desktopdir}
 
+mv $RPM_BUILD_ROOT%{_iconsdir}/{l,L}ocolor
 mv -f $RPM_BUILD_ROOT%{_datadir}/locale/{no,nb}
 mv -f $RPM_BUILD_ROOT%{_datadir}/locale/{no_NY,nn}
 mv -f $RPM_BUILD_ROOT%{_datadir}/locale/zh_TW{.Big5,}
@@ -71,5 +72,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/%{name}.la
 %{_desktopdir}/%{name}.desktop
 %{_datadir}/apps/%{name}
-%{_iconsdir}/hicolor/*/apps/%{name}.png
+%{_iconsdir}/*/*/apps/%{name}.png
 %{_mandir}/man1/*
